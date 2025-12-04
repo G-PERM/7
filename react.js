@@ -1,10 +1,1 @@
-function HelloWorld() {
-  return (
-    <h1 id="HelloWorld">
-      Hello<br></br>World<br></br>!
-    </h1>
-  );
-}
-const container = document.getElementById("Hello World!");
-const root = ReactDOM.createRoot(container);
-root.render(<HelloWorld />);
+function HelloWorld(){return React.createElement("h1",{id:"HelloWorld"},"Hello",React.createElement("br",null),"World",React.createElement("br",null),"!")}const container=document.getElementById("Hello World!"),root=ReactDOM.createRoot(container);root.render(React.createElement(HelloWorld,null));
